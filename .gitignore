@@ -1,0 +1,83 @@
+# Git files created by Eclipse
+#.gitignore
+
+# Directories #
+/build/
+target/
+ 
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+*.db
+
+# Folders - Hybris Specific
+.idea/
+idea-module-files/
+/config
+/data
+/log
+/temp
+.metadata/
+bin/modules/
+bin/platform/
+bin/logs/
+**/RemoteSystemsTempFiles/
+**/.externalToolBuilders/
+build.xml
+extensioninfo.xsd
+platformhome.properties
+items.xsd
+beans.xsd
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+.pmd
+.spring[Bb]eans
+*.build.number
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+*_bof.jar
+
+######################
+# IDEA
+######################
+*.pydevproject
+.metadata
+tmp/**
+tmp/**/*
+**/eclipsebin/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+
+
+# Folders - Automagically Generated
+**/classes/
+**/gensrc/
+**/web/addonsrc/
+**/web/commonwebsrc/
+**/web/testclasses/
+**/web/webroot/_ui/
+!**/web/webroot/_ui/responsive/common/
+!**/web/webroot/_ui/shared/
+**/web/webroot/_ui/addons/
+**/web/webroot/WEB-INF/addons/
+**/web/webroot/WEB-INF/classes/
+**/web/webroot/WEB-INF/messages/addons/
+**/web/webroot/WEB-INF/tags/addons/
+**/web/webroot/WEB-INF/tld/addons/
+**/web/webroot/WEB-INF/views/addons/
+#**/jalo/**
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
